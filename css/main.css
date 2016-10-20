@@ -13,13 +13,19 @@ div {
 }
 
 .btn {
+  display: inline-block;
   background-color: #000;
   border-radius: 8px;
   border-width: 3px;
+  border: solid;
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
   padding: .4em .75em .3em;
+}
+
+.btn:hover {
+  background-color: #666;
 }
 
 .btn-small {
@@ -36,17 +42,11 @@ div {
 
 .btn-ghost {
   background-color: #fff;
-  border-color: #000;
-  border: solid;
   color: #000;
 }
 
 .btn-warning {
-  background-color: #666;
-}
-
-.btn:hover {
-  background-color: #000;
+  background-color: #f33;
 }
 
 .btn-subtle:hover {
